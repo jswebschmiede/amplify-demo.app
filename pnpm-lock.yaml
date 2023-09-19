@@ -20,16 +20,16 @@ dependencies:
 
 devDependencies:
   '@types/react':
-    specifier: ^18.2.15
+    specifier: ^18.2.22
     version: 18.2.22
   '@types/react-dom':
     specifier: ^18.2.7
     version: 18.2.7
   '@typescript-eslint/eslint-plugin':
-    specifier: ^6.0.0
+    specifier: ^6.7.2
     version: 6.7.2(@typescript-eslint/parser@6.7.2)(eslint@8.49.0)(typescript@5.2.2)
   '@typescript-eslint/parser':
-    specifier: ^6.0.0
+    specifier: ^6.7.2
     version: 6.7.2(eslint@8.49.0)(typescript@5.2.2)
   '@vitejs/plugin-react-swc':
     specifier: ^3.3.2
@@ -38,7 +38,7 @@ devDependencies:
     specifier: ^10.4.15
     version: 10.4.15(postcss@8.4.30)
   eslint:
-    specifier: ^8.45.0
+    specifier: ^8.49.0
     version: 8.49.0
   eslint-plugin-react-hooks:
     specifier: ^4.6.0
@@ -53,10 +53,10 @@ devDependencies:
     specifier: ^3.3.3
     version: 3.3.3
   typescript:
-    specifier: ^5.0.2
+    specifier: ^5.2.2
     version: 5.2.2
   vite:
-    specifier: ^4.4.5
+    specifier: ^4.4.9
     version: 4.4.9
 
 packages:
@@ -5090,7 +5090,7 @@ packages:
   /axios@0.26.0:
     resolution: {integrity: sha512-lKoGLMYtHvFrPVt3r+RBMp9nh34N0M8zEfCWqdWZx6phynIEhQqAdydpyBAAG211zlhX9Rgu08cOamy6XjE5Og==}
     dependencies:
-      follow-redirects: 1.15.2
+      follow-redirects: 1.15.3
     transitivePeerDependencies:
       - debug
     dev: false
@@ -5232,7 +5232,7 @@ packages:
     hasBin: true
     dependencies:
       caniuse-lite: 1.0.30001538
-      electron-to-chromium: 1.4.523
+      electron-to-chromium: 1.4.524
       node-releases: 2.0.13
       update-browserslist-db: 1.0.11(browserslist@4.21.10)
 
@@ -5714,8 +5714,8 @@ packages:
     resolution: {integrity: sha512-WMwm9LhRUo+WUaRN+vRuETqG89IgZphVSNkdFgeb6sS/E4OrDIN7t48CAewSHXc6C8lefD8KKfr5vY61brQlow==}
     dev: false
 
-  /electron-to-chromium@1.4.523:
-    resolution: {integrity: sha512-9AreocSUWnzNtvLcbpng6N+GkXnCcBR80IQkxRC9Dfdyg4gaWNUPBujAHUpKkiUkoSoR9UlhA4zD/IgBklmhzg==}
+  /electron-to-chromium@1.4.524:
+    resolution: {integrity: sha512-iTmhuiGXYo29QoFXwwXbxhAKiDRZQzme6wYVaZNoitg9h1iRaMGu3vNvDyk+gqu5ETK1D6ug9PC5GVS7kSURuw==}
 
   /emoji-regex@8.0.0:
     resolution: {integrity: sha512-MSjYzcWNOA0ewAHpz0MxpYFvwg6yjy1NG3xteoqz644VCo/RPgnr1/GGt+ic3iJTzQ8Eu3TdM14SawnVUmGE6A==}
@@ -6095,8 +6095,8 @@ packages:
     engines: {node: '>=0.4.0'}
     dev: false
 
-  /follow-redirects@1.15.2:
-    resolution: {integrity: sha512-VQLG33o04KaQ8uYi2tVNbdrWp1QWxNNea+nmIB4EVM28v0hmP17z7aG1+wAkNzVq4KeXTq3221ye5qTJP91JwA==}
+  /follow-redirects@1.15.3:
+    resolution: {integrity: sha512-1VzOtuEM8pC9SFU1E+8KfTjZyMztRsgEfwQl44z8A25uy13jSzTj6dyK2Df52iV0vgHCfBwLhDWevLn95w5v6Q==}
     engines: {node: '>=4.0'}
     peerDependencies:
       debug: '*'
